@@ -7,18 +7,18 @@
 - 0.4 resolution : the resolution of each blockstep can be derived by the same ruleset
 
 - 1.0 district = bitmap block based upon blockheight
-- 1.0.0 district claim command = blockheight.bitmap 
-- 1.0.1 404.bitmap = command to claim district at block height:404
+- 1.0.0 district claim command = `blockheight.bitmap`
+- 1.0.1 `404.bitmap` = command to claim district at block height:404
 - 1.1 district claim validation = include only (filter 1.1)
-- 1.1.0 regex =  ^(?:0|[1-9][0-9]*)\.bitmap$
+- 1.1.0 regex =  `^(?:0|[1-9][0-9]*)\.bitmap$`
 - 1.1.1 district claim ≤ district claim inscription blockheight
 - 1.2. district owner verification resolution = include only (filter 1.2)
 - 1.2.1 first is first = lowest inscription number of valid claims
 
-- 2.0 parcel claim command = parcel height.district height.bitmap
+- 2.0 parcel claim command = `parcelheight.blockheight.bitmap`
 - 2.0.0 parcel height = order transaction appears within block (starting at 0)
-- 2.0.1 0.404.bitmap = command to claim the parcel for transaction 0 at block height : 404
-- 2.1.0 regex = ^(?:0|[1-9][0-9]*)\.^(?:0|[1-9][0-9]*)\.bitmap$
+- 2.0.1 `0.404.bitmap` = command to claim the parcel for transaction 0 at block height : 404
+- 2.1.0 regex = `^(?:0|[1-9][0-9]*)\.^(?:0|[1-9][0-9]*)\.bitmap$`
 - 2.1.1 parcel height ≤ total number of transactions within block at district height
 - 2.1.2 district holder address = parcel inscriber address
 - 2.2 tap district to resolve all valid confirmed parcel inscriptions
