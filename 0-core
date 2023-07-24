@@ -1,0 +1,5 @@
+- 0.0 blocktime = blockspace
+- 0.1 e=mc2 : energy (e) is equal to the velocity (c) of mass (m) exchange squared
+- 0.2 equivalence : each bitcoin parameter should find its natural equal spatial analogue
+- 0.3 blockstep : we observe and resolve commands each block according to ruleset
+- 0.4 resolution : the resolution of each blockstep can be derived by the same ruleset
