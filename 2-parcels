@@ -1,0 +1,11 @@
+- 2.0 parcel# = index number of transaction to be inscribed as parcel, starting at 0
+- 2.1 parcel claim command = parcel#.blockheight.bitmap
+- 2.2 0.404.bitmap = example command to claim the parcel for transaction 0 at blockheight : 404
+- 2.3 regex = `^(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.bitmap$`
+- 2.4 parcel# >= 0 and < total transactions in parent block
+- 2.5 district holder address = parcel inscriber address (initiates staking of district)
+- 2.6 tapping = send to self
+- 2.7 tap district to resolve all confirmed parcel inscriptions as valid/invalid (ends staking)
+- 2.8 if the parent district is sent to another wallet before tapping to confirm, any parcels created will not be verified (interrupted staking)
+- 2.9.0 tap = send district to self to confirm previously inscribed parcels
+- 2.9.1 parcel inscriptions remain unverified until the user taps
