@@ -11,7 +11,7 @@
 - 1.2 404.bitmap = example command to claim district at block height:404
 - 1.3 regex validation =  `^(?:0|[1-9][0-9]*)\.bitmap$`
 - 1.4 district claim < district claim inscription blockheight
-- 1.5 first is first = lowest inscription number of valid claims
+- 1.5 first is first = first valid inscription transaction on block
 
 - 2.0 parcel# = index number of transaction to be inscribed as parcel, starting at 0
 - 2.1 parcel claim command = parcel#.blockheight.bitmap
