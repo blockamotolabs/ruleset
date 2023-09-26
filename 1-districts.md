@@ -1,0 +1,6 @@
+- 1.0 district = bitmap block based upon blockheight
+- 1.1 district claim command = blockheight.bitmap
+- 1.2 404.bitmap = example command to claim district at block height:404
+- 1.3 regex validation =  `^(?:0|[1-9][0-9]*)\.bitmap$`
+- 1.4 district claim < district claim inscription blockheight
+- 1.5 first is first = first valid inscription transaction on block
